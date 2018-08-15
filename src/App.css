@@ -1,0 +1,19 @@
+.list {
+  overflow: scroll;
+}
+
+.list > ul > li:hover {
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.one {
+  left: 10px;
+  overflow: scroll;
+  border: 2px solid black;
+}
+
+th, td {
+  border-bottom: 1px solid black;
+  padding: 2px 10px;
+}
