@@ -9,10 +9,12 @@ const Items = props => {
     return (
       <div className="one">
         <table>
-          <tr>
-            <th>Name</th>
-            <th>Description</th>
-          </tr>
+          {props.items.length > 0 ? (
+            <tr>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+          ) : null}
           {props.items.map(item => {
             return (
               <tr>
