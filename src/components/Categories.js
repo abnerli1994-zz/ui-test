@@ -42,8 +42,8 @@ class Categories extends Component {
 
   render() {
     return (
-      <div>
-        <div className="list">
+      <div class="container">
+        <div class="list">
           <ul>
             {this.state.categories.map(categ => {
               return (
