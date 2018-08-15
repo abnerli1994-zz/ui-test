@@ -1,5 +1,13 @@
+.container{
+  display: flex;
+  border: solid;
+  flex-direction: row;
+  align-content: space-between;
+}
+
 .list {
-  overflow: scroll;
+  width: 20%;
+  flex: 1;
 }
 
 .list > ul > li:hover {
@@ -7,7 +15,8 @@
   cursor: pointer;
 }
 
-.one {
+.items {
+  width: 80%;
   left: 10px;
   overflow: scroll;
   border: 2px solid black;
